@@ -1,0 +1,148 @@
+*{
+    background-color: black;
+}
+.border{
+    height:450px;
+    width:380px;
+    padding:100px;
+    border-radius: 50%;
+}
+.robobody{
+    position:relative;
+    animation: bounce 1s infinite ease-in-out;
+}
+@keyframes bounce {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 10px;
+    }
+    100% {
+      top: 0;
+    }
+}
+
+.matha{
+    border:5px solid white;
+    width:200px;
+    height:200px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    align-content: center;
+    position: relative;
+    left:90px;
+    top:10px;
+
+}
+.bmatha{
+    border:2px solid white;
+    width:180px;
+    height:150px;
+    background-color: aliceblue;
+    position: relative;
+    top:20px;
+    left:8px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eye1,.eye2{
+    border:5px solid rgb(0, 0, 0);
+    border-bottom:15px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    width:45px;
+    height:30px;
+    border-radius: 50px;
+}
+.eye1:hover ,.eye2:hover{
+    border:5px solid rgb(0, 0, 0);
+    border-bottom:15px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    width:45px;
+    height:30px;
+    border-radius: 50px;
+}
+.eye1{
+    position: relative;
+    left:25px;
+}
+.eye2{
+    position: relative;
+    right:25px;
+}
+.lower{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items:start;
+}
+.sharir{
+    border:5px solid white;
+    width:250px;
+    height:200px;
+    border-top-right-radius: 90%;
+    border-top-left-radius: 90%;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    align-content: center;
+}
+.bsharir{
+    border:5px solid white;
+    width:180px;
+    height:150px;
+    background-color: aliceblue;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    align-content: center;
+    position: relative;
+    bottom:25px;
+    left:30px;
+}
+.lefth ,.righth{
+    border:8px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    width:50px;
+    height:100px;
+    border-radius: 50px;
+    position: relative;
+    top:10px;
+
+}
+.righth:hover{
+    rotate:300deg;
+}
+.lefth:hover{
+    rotate:75deg;
+}
+.tie{
+    border:5px solid white;
+    width:60px;
+    height:100px;
+    background-color: rgb(0, 0, 0);
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    align-content: center;
+    position: relative;
+    bottom:20px;
+    left:55px;
+}
+.button1,.button2{
+    border:5px solid rgb(0, 0, 0);
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    bottom:10px;
+    left:12px;
+}
